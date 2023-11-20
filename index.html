@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <title>Halloween</title>
+
+
+
+</head>
+
+
+
+<script>
+
+
+    function playAudio(){
+    
+        let x = document.getElementById("audio");
+        x.play();
+    
+    
+    }
+    
+    
+    function pauseAudio(){
+    
+        let x = document.getElementById("audio");
+        x.pause();
+    }
+     </script>
+
+<body class="fundo">
+
+ 
+    
+<audio  autoplay loop preload="none" id="audio">
+
+
+<source src="./Laurie Knows.mp3" type="audio/mp3">
+
+
+</audio> >
+
+<button class="play" onclick="playAudio()">Play</button>
+<button class="pause" onclick="pauseAudio()">Pause</button>
+
+
+    
+<header>
+    <div class="container">
+        <h1 class="titulo"> Halloween </h1>
+
+        <input type="email" alt="email" class="email" placeholder="E-mail" >
+
+        <input type="password" alt="senha" class="senha" placeholder="Senha">
+         
+        <input type="checkbox" alt="lembrar" class="input"> <a class="lembrar"> Lembrar-se</a>  <a class="esqueceu"> Esqueci a senha </a>
+
+        <button class="botão"> Entrar</button>
+        
+        <a class="link"> Não tenho uma conta. criar conta </a>
+ 
+    </div>
+
+</header>
+
+    <footer>
+    
+        <h2 class="texto2">
+            Hallef - menerio - Dev
+        </h2>
+    
+    </footer>
+     
+</body>
+</html>
